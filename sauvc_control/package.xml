@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>sauvc_training</name>
+  <name>sauvc_control</name>
   <version>0.0.1</version>
-  <description>The sauvc_training package</description>
-  <maintainer email="leonardo_edgar98@outlook.com">leonardoedgar</maintainer>
+  <description>The sauvc_control package</description>
+  <maintainer email="leonardoedgar@todo.todo">leonardoedgar</maintainer>
   <license>TODO</license>
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>roscpp</build_depend>

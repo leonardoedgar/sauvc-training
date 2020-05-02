@@ -1,4 +1,4 @@
-from sauvc_training.pid_controller import PIDController
+from sauvc_control.pid_controller import PIDController
 import numpy as np
 
 
