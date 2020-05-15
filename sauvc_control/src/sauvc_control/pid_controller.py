@@ -41,7 +41,7 @@ class PIDController(object):
             delta_time = time[index] - time[index-1]
             P_error = self._P * error
             I_error += self._I * error * delta_time
-            D_error = self._D * (stabilised_values[index] - stabilised_values[index-1]) / delta_time
+            D_error = self._D * -(stabilised_values[index] - stabilised_values[index-1]) / delta_time
             controller_output[index] = P_error + I_error + D_error
         return stabilised_values
 
